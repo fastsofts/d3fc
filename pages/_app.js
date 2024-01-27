@@ -15,7 +15,7 @@ function SafeHydrate({ children }) {
 
 
 const  App = ({ Component, pageProps }) => {
-  return <SafeHydrate><Provider store={makeStore}><Component {...pageProps} /></Provider></SafeHydrate>
+  return <SafeHydrate><Provider store={makeStore()}><Component {...pageProps} /></Provider></SafeHydrate>
 }
 
 export default wrapper.withRedux(dynamic(() => Promise.resolve(App), {
