@@ -1,0 +1,129 @@
+{
+    "cinemaCompany": {
+      "cinemaName": "Cineplex",
+      "type":"movie theater",
+      "teatherLocations": [
+        "Metrotown",
+        "Downtown"
+      ],
+      "currentMovies": 
+      [
+        "Pirates of the Caribbean I",
+        "Star Wars"
+      ],
+      "popcornTypes": [
+        "salty",
+        "sweet"
+      ],
+      "surveyDemographic": [
+        {
+          "demographic":"male 18-30",
+          "teatherLocations":
+            [
+              "Metrotown",
+              "Downtown"
+            ],
+          "surveyParticipants":
+          [
+            {
+              "name":"John",
+              "favMovie":
+              [
+                "Pirates of the Caribbean I",
+                "Dune"
+              ]
+            },
+            {
+              "name":"Mike",
+              "favMovie":
+              [
+                "Dune",
+                "Jurassic Park"
+              ]
+            },
+            {
+              "name":"John",
+              "favMovie":
+              [
+                "Star Wars"
+              ]
+            }
+          ]
+        },
+        {
+          "demographic":"female 18-30",
+          "teatherLocations":
+            [
+              "Metrotown"
+            ],
+          "surveyParticipants":
+          [
+            {
+              "name":"Sarah",
+              "favMovie":
+              [
+                "The Invisible Man",
+                "Dune"
+              ]
+            },
+            {
+              "name":"Anna",
+              "favMovie":
+              [
+                "Dune",
+                "Jurassic Park"
+              ]
+            }
+          ]
+        }
+      ],
+      "productionCompaniesWorkingWith": [
+        {
+          "name": "Warner Brothers",
+          "type": "production company",
+          "connectionWithCinemaConfirmed": false,
+          "headOfficeLocation":"Hollywood",
+          "studiosLocations":[
+            "Canada", 
+            "Mexico"
+          ],
+          "moviesProduced":
+          [
+            "Pirates of the Caribbean I",
+            "Star Wars",
+            "Dune",
+            "Ithers1",
+            "Ithers2",
+            "Ithers3",
+            "Ithers4",
+"test1",
+"test2",
+"test3",
+"test4",
+"test5","test11",
+"test21",
+"test31",
+"test41",
+"test51"
+          ]
+        },
+        {
+          "name": "Films Universal",
+          "type": "production company",
+          "connectionWithCinemaConfirmed": true,
+          "headOfficeLocation":"Hollywood",
+          "studiosLocations":[
+            "Canada", 
+            "US"
+          ],
+          "moviesProduced":
+          [
+            "Jaws",
+            "Jurassic Park",
+            "The Invisible Man",
+            "Dune"
+          ]
+        }
+      ]
+    }
+  }

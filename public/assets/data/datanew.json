@@ -1,0 +1,82 @@
+{
+    "cinemaCompany": {
+      "cinemaName": "United Movies",
+      "type": "Theater",
+      "currentMovies": [
+        "Movie 1",
+        "Movie 2",
+        "Movie 3"
+      ],
+      "popcornTypes": [
+        "salty"
+      ],
+      "surveyDemographic": [],
+      "theatreLocations":["Texas","Washington"],
+      "productionCompaniesWorkingWith": [
+        {
+          "name": "Warner Prod 1",
+          "type": "Production",
+          "connectionWithCinemaConfirmed": false,
+          "headOfficeLocation": ["Edmonton", "Alberta"],
+          "studiosLocations": [],
+          "moviesProduced": []
+        },
+        {
+          "name": "Warner Prod 2",
+          "type": "Production",
+          "connectionWithCinemaConfirmed": false,
+          "headOfficeLocation":[],
+          "studiosLocations": [],
+          "moviesProduced": []
+        },
+        {
+          "name": "Disney",
+          "type": "Production",
+          "connectionWithCinemaConfirmed": false,
+          "headOfficeLocation": ["Hamm", "Germany"],
+          "studiosLocations": [],
+          "moviesProduced": []
+        },
+        {
+          "name": "Disney Cop",
+          "type": "Production",
+          "connectionWithCinemaConfirmed": false,
+          "headOfficeLocation": ["Manerbio (BS)", "Italy"],
+          "studiosLocations": [],
+          "moviesProduced": []
+        },
+        {
+          "name": "Production 3",
+          "type": "Production",
+          "connectionWithCinemaConfirmed": false,
+          "headOfficeLocation": ["Alsdorf", "Germany"],
+          "studiosLocations": [],
+          "moviesProduced": []
+        },
+        {
+          "name": "Eastside Production",
+          "type": "Production",
+          "connectionWithCinemaConfirmed": false,
+          "headOfficeLocation": ["Vicenza", "Italy"],
+          "studiosLocations": ["Canada"],
+          "moviesProduced": []
+        },
+        {
+          "name": "West Prod",
+          "type": "Production",
+          "connectionWithCinemaConfirmed": false,
+          "headOfficeLocation": ["Chilgok-gun Gyeongbuk", "Korea Republic"],
+          "studiosLocations": ["Canada","US"],
+          "moviesProduced": []
+        },
+        {
+          "name": "West Group Production",
+          "type": "Production",
+          "connectionWithCinemaConfirmed": false,
+          "headOfficeLocation":[],
+          "studiosLocations": [],
+          "moviesProduced": []
+        }
+      ]
+    }
+  }
